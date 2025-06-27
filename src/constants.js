@@ -30,7 +30,7 @@ import agcLogo from './assets/company_logo/agcLogo.jpg';
 
 // Education Section Logo's
 //import glaLogo from './assets/education_logo/gla_logo.png';
-import bsaLogo from './assets/education_logo/bsa_logo.jpg';
+//import bsaLogo from './assets/education_logo/bsa_logo.jpg';
 import vpsLogo from './assets/education_logo/vps_logo.jpg';
 import glaLogo from './assets/education_logo/gla_logo.png';
 import logocolor1 from './assets/education_logo/logo-color-1.png';
@@ -40,7 +40,7 @@ import githubdetLogo from './assets/work_logo/github_det.jpg';
 import csprepLogo from './assets/work_logo/cs_prep.jpg';
 import movierecLogo from './assets/work_logo/movie_rec.jpeg';
 import autorepair from './assets/work_logo/auto-repair.png'
-// import taskremLogo from './assets/work_logo/task_rem.png';
+import taskremLogo from './assets/work_logo/e-waste.jpg';
 // import npmLogo from './assets/work_logo/npm.png';
 // import webverLogo from './assets/work_logo/web_dig.png';
 // import cmLogo from './assets/work_logo/cm.png';
@@ -288,7 +288,7 @@ export const projects = [
       "• In this project I built a resume builder website that helps user to create there resume easily. \n • User can select template of there choice, fill the information and will generate the resume and download also.\n • Tools : HTML, CSS, JavaScript, React.",
     image: githubdetLogo,
     tags: ["HTML", "CSS", "JavaScript", "React JS", "SQL"],
-    // github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
+    github: "https://github.com/monalibabde/Log-Book-Generator",
     // webapp: "https://githubprofiledetective.netlify.app/",
   },
   {
@@ -308,6 +308,9 @@ export const projects = [
       " • In this Project, I created a UI/UX design for Log book generator in Netbeans. • Here, user can add his entries and save it and that entries are stored in file with timestamps. • Then user can able to retrieve his log entry based on specific dates or keywords. • Tools: Java Swing, MySQL",
     image: movierecLogo,
     tags: ["Java Swing", "JavaNetBeans", "MySQL"],
+    github: "https://github.com/monalibabde/Log-Book-Generator",
+
+
   },
   {
     id: 3,
@@ -317,18 +320,18 @@ export const projects = [
     image: autorepair,
     tags: ["Python", "Deep Learning", "Tensorflow", "Pytorch", "Streamlit", "OpenCV"],
     colab: "https://colab.research.google.com/drive/1P47W-rERt0jjlWx9PL-Q04787nljwVdN",
-  }
+  },
 
-  // {
-  //   id: 4,
-  //   title: "Task Reminder Chrome Extension Tool",
-  //   description:
-  //     "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-  //   image: taskremLogo,
-  //   tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-  //   github: "https://github.com/codingmastr/Task-Reminder-Tool",
-  //   webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-  // },
+  {
+    id: 4,
+    title: "Smart E-Waste Classifier",
+    description:
+      "Built sustainable e-waste management system using AI & MERN Stack",
+    image: taskremLogo,
+    tags: ["MobileNetV2", "MERN Stack", "Computer Vision", "Geo API"],
+    colab: "https://colab.research.google.com/drive/1OIpFVmSvf9jV1WtH67BlKgWR5BbGde_A?usp=sharing",
+    //webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
+  },
   // {
   //   id: 5,
   //   title: "Webverse Digital",

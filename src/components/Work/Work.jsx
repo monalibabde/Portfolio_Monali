@@ -138,6 +138,7 @@ const Work = () => {
                       View Colab
                     </a>
                   )}
+
                   {selectedProject.github && (
                     <a
                       href={selectedProject.github}
